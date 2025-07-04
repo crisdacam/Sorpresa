@@ -6,15 +6,9 @@ function nextPanel() {
 
   if (currentPanel <= 4) {
     document.getElementById(`panel${currentPanel}`).classList.add("visible");
-
-    // Mostrar popup al llegar a la escena 4
-    if (currentPanel === 4) {
-      setTimeout(() => {
-        document.getElementById("surprisePopup").style.display = "flex";
-      }, 500); // Puedes ajustar el tiempo si quieres
-    }
-
   } else {
+    // Al dar clic en “Siguiente” después de la escena 4, mostrar el popup
     document.getElementById("nextBtn").style.display = "none";
+    document.getElementById("surprisePopup").style.display = "flex";
   }
 }
