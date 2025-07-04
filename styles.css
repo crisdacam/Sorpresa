@@ -54,3 +54,13 @@ body {
   font-size: 1.5rem;
   margin: 20px;
 }
+
+.hotspot-link {
+  position: absolute;
+  top: 67%;   /* Ajusta según la ubicación exacta del sobre */
+  left: 61%;  /* Ajusta según necesidad */
+  width: 10%; /* Ajusta según tamaño del sobre */
+  height: 12%;
+  display: block;
+  z-index: 2;
+}
