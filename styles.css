@@ -57,10 +57,10 @@ body {
 
 .hotspot-link {
   position: absolute;
-  top: 97%;   /* Ajusta según la ubicación exacta del sobre */
+  top: 92%;   /* Ajusta según la ubicación exacta del sobre */
   left: 61%;  /* Ajusta según necesidad */
-  width: 15%; /* Ajusta según tamaño del sobre */
-  height: 19%;
+  width: 20%; /* Ajusta según tamaño del sobre */
+  height: 10%;
   display: block;
   z-index: 2;
 }
